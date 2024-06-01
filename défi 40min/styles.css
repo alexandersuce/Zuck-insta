@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+header a img {
+    height: 40px;
+}
+
+.search {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+header .bouttons {
+    height: 40px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.profile-header img.profil-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-header h2.profil-name {
+    font-size: 28px;
+    margin: 0;
+}
+
+.profile-header img.certif {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.profile-header .follow, .profile-header .more {
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #0095f6;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.profile-stats a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 16px;
+}
+
+.profile-stats a .count {
+    font-weight: bold;
+    display: block;
+}
+
+.profile-stats a .label {
+    color: #8e8e8e;
+}
+
+.navigation-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.navigation-bar img {
+    width: 100%;
+}
